@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\hansung\LOCALS~1\Temp\RSPB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/test.pdb" /debug /machine:I386 /out:"Debug/test.exe" /pdbtype:sept 
+".\Debug\test.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\hansung\LOCALS~1\Temp\RSPB.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library Debug/test.lib and object Debug/test.exp
+test.obj : error LNK2001: unresolved external symbol __imp__InternetOpenA@20
+test.obj : error LNK2001: unresolved external symbol __imp__InternetConnectA@32
+test.obj : error LNK2001: unresolved external symbol __imp__FtpPutFileA@20
+test.obj : error LNK2001: unresolved external symbol __imp__InternetCloseHandle@4
+test.obj : error LNK2001: unresolved external symbol __imp__WSACleanup@0
+test.obj : error LNK2001: unresolved external symbol __imp__inet_ntoa@4
+test.obj : error LNK2001: unresolved external symbol __imp__gethostbyname@4
+test.obj : error LNK2001: unresolved external symbol __imp__gethostname@8
+test.obj : error LNK2001: unresolved external symbol __imp__WSAStartup@8
+Debug/test.exe : fatal error LNK1120: 9 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+test.exe - 10 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

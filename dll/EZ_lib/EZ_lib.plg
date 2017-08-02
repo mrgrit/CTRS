@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: EZ_lib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\hansung\LOCALS~1\Temp\RSP40.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wininet.lib WS2_32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/EZ_lib.pdb" /debug /machine:I386 /out:"Debug/EZ_lib.exe" /pdbtype:sept 
+".\Debug\EZ_lib.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\hansung\LOCALS~1\Temp\RSP40.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library Debug/EZ_lib.lib and object Debug/EZ_lib.exp
+
+
+
+<h3>Results</h3>
+EZ_lib.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
